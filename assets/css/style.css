@@ -12,7 +12,9 @@
 }
 
 body {
+    height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header {
@@ -30,7 +32,11 @@ header {
 
 
 .imagem {
-    margin: 400px 0px;
+    height: 500px;
+    background-color: #ffba6f;
+    background-image: url(../img/notebook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -38,7 +44,7 @@ header {
 
 
 main {
-    background-color: #c9c9c9;
+    background-color: #FFF;
     color: black;
     padding: 16px 0px;
 }
@@ -60,18 +66,21 @@ main {
 .main_description {
     margin-inline: auto;
     margin-top: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 26px;
+    padding: 0px 18px;
     max-width: 700px;
-
+    text-indent: 30px;
+    line-height: 22px;
 }
 
 main .whatsapp-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    max-width: 700px;
     padding: 10px 10px;
-    margin: auto;
+    margin-inline: auto;
+    margin-bottom: 12px;
     background-color: #d1b200;
     border-radius: 100px;
     box-shadow: -4px 5px 2px #8b6300;
@@ -90,3 +99,22 @@ main .whatsapp-button:hover {
     margin-right: 10px;
 }
 
+
+/* FOOTER */
+footer {
+    background-color: #272727;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffc400;
+}
